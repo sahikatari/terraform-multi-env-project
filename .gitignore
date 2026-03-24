@@ -1,0 +1,13 @@
+# Terraform files to ignore
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+
+# Ignore CLI config
+.terraformrc
+terraform.rc
+
+# OS files
+.DS_Store
+Thumbs.db
